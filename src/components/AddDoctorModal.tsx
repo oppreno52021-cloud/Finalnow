@@ -205,20 +205,20 @@ export const AddDoctorModal: React.FC<AddDoctorModalProps> = ({
           </div>
 
           {/* 4. Loves Samples Checkbox (Approved Feature) */}
-          <div className="p-3 rounded-xl bg-rose-50/70 border border-rose-200/80">
+          <div className="p-3 rounded-xl bg-slate-100/90 dark:bg-indigo-950/40 border border-slate-300 dark:border-indigo-800/60">
             <label className="flex items-center gap-2 cursor-pointer">
               <input
                 type="checkbox"
                 checked={lovesSamples}
                 onChange={(e) => setLovesSamples(e.target.checked)}
-                className="w-4 h-4 accent-rose-600 rounded"
+                className="w-4 h-4 accent-[#0A3D62] rounded cursor-pointer"
               />
-              <span className="text-xs font-bold text-rose-900 flex items-center gap-1.5">
-                <Gift className="w-4 h-4 text-rose-600" />
+              <span className="text-xs font-black text-[#0A3D62] dark:text-indigo-200 flex items-center gap-1.5">
+                <Gift className="w-4 h-4 text-[#0A3D62] dark:text-indigo-400" />
                 <span>طبيب يفضل العينات ويستخدمها للمرضى (Sample Lover 🎁)</span>
               </span>
             </label>
-            <p className="text-[11px] text-rose-700 mr-6 mt-0.5">
+            <p className="text-[11px] text-slate-700 dark:text-indigo-300 mr-6 mt-0.5 font-bold">
               سيتم تمييزه بشارة عينات في الرئيسية لتجهيز العينات قبيل الدخول للعيادة
             </p>
           </div>

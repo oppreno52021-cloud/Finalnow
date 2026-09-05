@@ -129,8 +129,8 @@ export const DoctorProfileScreenView: React.FC<DoctorProfileScreenViewProps> = (
 
               {/* Sample Lover Badge */}
               {doctor.lovesSamples && (
-                <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-rose-50 dark:bg-rose-950/40 text-rose-800 dark:text-rose-300 border border-rose-200 dark:border-rose-800 flex items-center gap-1">
-                  <Gift className="w-3.5 h-3.5 text-rose-600" />
+                <span className="text-xs font-black px-2 py-0.5 rounded-md bg-slate-100 dark:bg-indigo-950/40 text-[#0A3D62] dark:text-indigo-300 border border-slate-300 dark:border-indigo-800 flex items-center gap-1">
+                  <Gift className="w-3.5 h-3.5 text-[#0A3D62] dark:text-indigo-400" />
                   <span>يفضل العينات ويستخدمها للمرضى 🎁</span>
                 </span>
               )}

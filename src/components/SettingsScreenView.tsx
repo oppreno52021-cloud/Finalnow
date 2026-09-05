@@ -52,13 +52,13 @@ export const SettingsScreenView: React.FC<SettingsScreenViewProps> = ({
   const [profile, setProfile] = useState<UserProfile>(userProfile);
   const [savedSuccess, setSavedSuccess] = useState(false);
 
-  // Collapsible Dropdown State for all setting boxes (profile open by default as in screenshot)
+  // Collapsible Dropdown State for all setting boxes (all closed by default as requested)
   const [openSections, setOpenSections] = useState<{
     profile: boolean;
     appearance: boolean;
     backup: boolean;
   }>({
-    profile: true,
+    profile: false,
     appearance: false,
     backup: false,
   });

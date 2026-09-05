@@ -136,12 +136,12 @@ export const AndroidNavBar: React.FC<AndroidNavBarProps> = ({
             <Home className={`w-5 h-5 mb-0.5 transition-colors ${
               activeTab === 'home'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] stroke-[2.6]'
-                : 'text-[#94A3B8] dark:text-slate-400 stroke-[2]'
+                : 'text-[#475569] dark:text-slate-400 stroke-[2]'
             }`} />
             <span className={`text-[11px] transition-colors ${
               activeTab === 'home'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] font-black'
-                : 'text-[#94A3B8] dark:text-slate-400 font-bold'
+                : 'text-[#475569] dark:text-slate-400 font-bold'
             }`}>الرئيسية</span>
           </button>
 
@@ -159,12 +159,12 @@ export const AndroidNavBar: React.FC<AndroidNavBarProps> = ({
             <Users className={`w-5 h-5 mb-0.5 transition-colors ${
               activeTab === 'doctors'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] stroke-[2.6]'
-                : 'text-[#94A3B8] dark:text-slate-400 stroke-[2]'
+                : 'text-[#475569] dark:text-slate-400 stroke-[2]'
             }`} />
             <span className={`text-[11px] transition-colors ${
               activeTab === 'doctors'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] font-black'
-                : 'text-[#94A3B8] dark:text-slate-400 font-bold'
+                : 'text-[#475569] dark:text-slate-400 font-bold'
             }`}>الأطباء</span>
           </button>
 
@@ -182,12 +182,12 @@ export const AndroidNavBar: React.FC<AndroidNavBarProps> = ({
             <CalendarCheck className={`w-5 h-5 mb-0.5 transition-colors ${
               activeTab === 'visits'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] stroke-[2.6]'
-                : 'text-[#94A3B8] dark:text-slate-400 stroke-[2]'
+                : 'text-[#475569] dark:text-slate-400 stroke-[2]'
             }`} />
             <span className={`text-[11px] transition-colors ${
               activeTab === 'visits'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] font-black'
-                : 'text-[#94A3B8] dark:text-slate-400 font-bold'
+                : 'text-[#475569] dark:text-slate-400 font-bold'
             }`}>الزيارات</span>
           </button>
 
@@ -205,12 +205,12 @@ export const AndroidNavBar: React.FC<AndroidNavBarProps> = ({
             <Package className={`w-5 h-5 mb-0.5 transition-colors ${
               activeTab === 'products'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] stroke-[2.6]'
-                : 'text-[#94A3B8] dark:text-slate-400 stroke-[2]'
+                : 'text-[#475569] dark:text-slate-400 stroke-[2]'
             }`} />
             <span className={`text-[11px] transition-colors ${
               activeTab === 'products'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] font-black'
-                : 'text-[#94A3B8] dark:text-slate-400 font-bold'
+                : 'text-[#475569] dark:text-slate-400 font-bold'
             }`}>المنتجات</span>
           </button>
 
@@ -228,12 +228,12 @@ export const AndroidNavBar: React.FC<AndroidNavBarProps> = ({
             <Settings className={`w-5 h-5 mb-0.5 transition-colors ${
               activeTab === 'settings'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] stroke-[2.6]'
-                : 'text-[#94A3B8] dark:text-slate-400 stroke-[2]'
+                : 'text-[#475569] dark:text-slate-400 stroke-[2]'
             }`} />
             <span className={`text-[11px] transition-colors ${
               activeTab === 'settings'
                 ? 'text-[#0A3D62] dark:text-[#42A5F5] font-black'
-                : 'text-[#94A3B8] dark:text-slate-400 font-bold'
+                : 'text-[#475569] dark:text-slate-400 font-bold'
             }`}>الإعدادات</span>
           </button>
         </div>

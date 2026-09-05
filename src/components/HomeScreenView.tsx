@@ -380,8 +380,8 @@ export const HomeScreenView: React.FC<HomeScreenViewProps> = ({
                             فئة {doctor.classification}
                           </span>
                           {doctor.lovesSamples && (
-                            <span className="inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-md bg-rose-50 text-rose-800 border border-rose-200">
-                              <Gift className="w-3 h-3 text-rose-600" />
+                            <span className="inline-flex items-center gap-1 text-[11px] font-black px-2 py-0.5 rounded-md bg-slate-100 dark:bg-indigo-950/40 text-[#0A3D62] dark:text-indigo-300 border border-slate-300 dark:border-indigo-800">
+                              <Gift className="w-3 h-3 text-[#0A3D62] dark:text-indigo-400" />
                               <span>محب للعينات 🎁</span>
                             </span>
                           )}
@@ -643,7 +643,7 @@ export const HomeScreenView: React.FC<HomeScreenViewProps> = ({
                               {doc.classification}
                             </span>
                             {doc.lovesSamples && (
-                              <span className="text-[10px] text-rose-600 dark:text-rose-400 font-semibold">
+                              <span className="text-[10px] text-[#0A3D62] dark:text-indigo-400 font-black">
                                 🎁 عينات
                               </span>
                             )}
